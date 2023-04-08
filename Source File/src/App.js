@@ -3,6 +3,7 @@ import Contact from "./componen/Contact";
 import Hero from "./componen/Hero";
 import Navbar from "./componen/Navbar";
 import Programming from "./componen/Programming";
+import Card from "./componen/Card";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero></Hero>
       <Programming></Programming>
       <Contact></Contact>
+      <Card></Card>
     </div>
   );
 };
