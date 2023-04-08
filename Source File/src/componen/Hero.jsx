@@ -5,11 +5,11 @@ import Typed from "react-typed";
 
 function Hero() {
   return (
-    <div className="flex h-2/5 flex-col items-center bg-cover text-basefont">
+    <div className="relative flex h-2/5 flex-col items-center bg-cover text-basefont">
       <img src={Gambar} alt="s" className="relative block h-screen w-full mix-blend-overlay lg:hidden" style={{ backgroundPositionY: "-20px" }} />
       <img src={Gambars} alt="s" className="relative  hidden h-screen  w-full mix-blend-overlay blur-sm lg:block" style={{ backgroundPositionY: "-20px" }} />
 
-      <div className="absolute flex flex-col items-center pt-[160px] lg:pt-[15rem] ">
+      <div className="absolute flex flex-col items-center pt-[25vh] lg:pt-[40vh] ">
         <p className="pt-[28%] text-center text-[10px] font-bold text-primary sm:pt-[32%] md:pt-0 md:text-4xl lg:text-4xl">
           Growing <span className="text-4xl">Everywhere</span>
         </p>

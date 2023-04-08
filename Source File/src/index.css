@@ -6,8 +6,27 @@ body {
   background-color: rgb(51 65 85);
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 .mark {
-  @apply h-[28rem] w-full bg-basefont p-11;
+  @apply h-[28rem] w-full bg-basefont p-8;
+}
+
+.mirk {
+  @apply h-[28rem] w-full;
+}
+
+.aturan-box {
+  @apply mx-auto p-5;
+}
+
+.nav-ubah-hitam {
+  @apply duration-500 ease-in-out lg:bg-transparent lg:text-basefont;
+}
+.nav-ubah-putih {
+  @apply bg-basecolor bg-opacity-50 bg-blend-darken  duration-500 ease-in-out lg:bg-basecolor lg:text-black lg:opacity-60 lg:backdrop-blur-md;
+}
+.back-home {
+  @apply block lg:block;
 }

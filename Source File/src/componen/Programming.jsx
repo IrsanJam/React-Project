@@ -3,15 +3,15 @@ import Gambar from "./2.jpg";
 
 function Programming() {
   return (
-    <div className="mark bg-white">
-      <div className="mx-auto pb-5 lg:flex lg:items-center lg:justify-center lg:gap-3 lg:pl-20 lg:pt-5">
-        <div className=" -mt-5 mb-5 h-[10rem] w-[15rem] lg:flex lg:h-[16rem] lg:w-[25rem] ">
+    <div className="mark container max-w-full">
+      <div className="aturan-box lg:flex lg:items-center lg:justify-between lg:gap-5 lg:px-[4rem] lg:py-16">
+        <div className=" -mt-5 mb-5 h-[10rem] w-full lg:flex lg:h-[16rem] lg:w-[25rem] ">
           <img src={Gambar} alt="" className="rounded-lg" />
         </div>
-        <div className=" text-justify lg:h-[20rem] lg:w-full lg:px-20 lg:py-16">
-          <p className="text-[10px] font-bold uppercase text-green-500 md:text-[12px] lg:-mt-9 lg:pb-10">talk How programming come</p>
+        <div className=" text-justify lg:h-[20rem] lg:w-full lg:py-16 lg:pl-10 lg:pr-2">
+          <p className="pt-5 text-[10px] font-bold uppercase text-green-500 md:text-[12px] lg:-mt-9 lg:pb-10">talk How programming come</p>
           <h3 className="mb-2 font-bold text-basecolor lg:-mt-8 lg:mb-5 lg:text-4xl">About Programming</h3>
-          <p className="text-[12px]">
+          <p className="text-[10px] md:text-[12px]">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis error exercitationem blanditiis mollitia consequuntur ex saepe expedita aperiam, cum corporis? Qui laboriosam iusto suscipit tempora ullam fugit,
             exercitationem quia eligendi ex nam officia commodi eos quisquam aperiam aliquam sequi neque.
           </p>
