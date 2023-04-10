@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className=" flex flex-col items-center  justify-center bg-basecolor p-10  text-center text-basefont lg:flex lg:h-40 lg:max-w-full lg:flex-row lg:items-center lg:justify-between lg:px-28 ">
+    <div id="contacts" className=" flex flex-col items-center  justify-center bg-basecolor p-10  text-center text-basefont lg:flex lg:h-40 lg:max-w-full lg:flex-row lg:items-center lg:justify-between lg:px-28 ">
       <div className="lg:-ml-3 lg:flex lg:flex-col lg:items-start lg:justify-center">
         <p className=" text-[9px] font-bold uppercase text-primary lg:mb-8  lg:text-[12px]">join to our programs</p>
         <h3 className="text-[15px] font-bold lg:-mt-6 lg:text-2xl ">Interest to Learn Contact us</h3>

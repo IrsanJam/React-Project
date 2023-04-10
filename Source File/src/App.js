@@ -4,6 +4,7 @@ import Hero from "./componen/Hero";
 import Navbar from "./componen/Navbar";
 import Programming from "./componen/Programming";
 import Card from "./componen/Card";
+import Footer from "./componen/Footer";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Programming></Programming>
       <Contact></Contact>
       <Card></Card>
+      <Footer></Footer>
     </div>
   );
 };

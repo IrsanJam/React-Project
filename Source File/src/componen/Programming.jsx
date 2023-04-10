@@ -3,7 +3,7 @@ import Gambar from "./2.jpg";
 
 function Programming() {
   return (
-    <div className="mark container max-w-full">
+    <div id="about" className="mark container max-w-full">
       <div className="aturan-box lg:flex lg:items-center lg:justify-between lg:gap-5 lg:px-[4rem] lg:py-16">
         <div className=" -mt-5 mb-5 h-[10rem] w-full lg:flex lg:h-[16rem] lg:w-[25rem] ">
           <img src={Gambar} alt="" className="rounded-lg" />
